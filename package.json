@@ -4,8 +4,12 @@
   "description": "Convert between quantities in different units",
   "main": "lib",
   "dependencies": {
-    "lodash.keys": "2.3.x",
-    "lodash.foreach": "2.3.x"
+    "eslint": "^6.8.0",
+    "eslint-config-standard-trailing-commas": "^6.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "lodash.foreach": "2.3.x",
+    "lodash.keys": "2.3.x"
   },
   "devDependencies": {
     "assert-diff": "^1.1.0",
