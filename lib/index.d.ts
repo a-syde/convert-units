@@ -22,6 +22,7 @@ declare module "convert-units" {
     type uReactiveEnergy = "VARh" | "mVARh" | "kVARh" | "MVARh" | "GVARH"; // Reactive Energy
     type uAngle = "deg" | "rad" | "grad" | "arcmin" | "arcsec"; // Angle
     type uMassVelocity = "kg/m" | "t/mi";
+    type uVolumeVelocity = "l/m" | "gal/mi";
 
 
     type unit = uDistance
@@ -46,6 +47,7 @@ declare module "convert-units" {
               | uEnergy
               | uReactiveEnergy
               | uMassVelocity
+              | uVolumeVelocity
               | uAngle;
 
     type measure = "distance"
@@ -70,6 +72,7 @@ declare module "convert-units" {
                  | "energy"
                  | "reactiveEnergy"
                  | "massVelocity"
+                 | "volumeVelocity"
                  | "angle";
 
     type system = "metric"

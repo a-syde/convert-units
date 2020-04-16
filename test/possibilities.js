@@ -375,6 +375,8 @@ tests['all possibilities'] = function () {
     'μC',
     'kg/m',
     't/mi',
+    'l/m',
+    'gal/mi',
   ]
 
   try {
