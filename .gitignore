@@ -3,6 +3,5 @@
 node_modules
 scratch
 .idea
-test_script.js
 *.log
 *.swp
